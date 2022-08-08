@@ -24,6 +24,7 @@ import androidIcon from './assets/icon-android.svg';
 import illApp from './assets/illustration-app.png';
 import bgP2 from './assets/bg-pattern-2.svg';
 import bg from './assets/bg-main-desktop.png';
+
 function App() {
   return (
     <div>
