@@ -1,10 +1,10 @@
 import React from 'react';
 import { ChakraProvider, Box, Wrap, WrapItem } from '@chakra-ui/react';
-import theme from './components/theme';
+import theme from './utils/theme';
 import bg from './assets/bg-main-desktop.png';
-import Intro from './components/intro';
-import Content from './components/content';
-import Footer from './components/footer';
+import Intro from './components/Intro';
+import Content from './components/Content/Content';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -17,13 +17,10 @@ function App() {
       >
         <Wrap>
           <WrapItem>
-            <Intro></Intro>
+            <Intro/>
           </WrapItem>
           <WrapItem>
-            <Content></Content>
-          </WrapItem>
-          <WrapItem>
-            <Footer></Footer>
+            <Footer/>
           </WrapItem>
         </Wrap>
       </Box>
