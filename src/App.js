@@ -5,6 +5,7 @@ import bg from './assets/bg-main-desktop.png';
 import Intro from './components/Intro';
 import Content from './components/Content/Content';
 import Footer from './components/Footer/Footer';
+import Download from './components/Content/Download';
 
 function App() {
   return (
@@ -17,10 +18,22 @@ function App() {
       >
         <Wrap>
           <WrapItem>
-            <Intro/>
+            <Intro />
+          </WrapItem>
+          <WrapItem w="100%">
+            <Box w="100%" align="center">
+              <Content />
+              <Box
+                mt={['50px', '50px', '-400px', '-400px']}
+                justify="center"
+                px={['50px', '50px', '150px', '210px']}
+              >
+                <Download />
+              </Box>
+            </Box>
           </WrapItem>
           <WrapItem>
-            <Footer/>
+            <Footer />
           </WrapItem>
         </Wrap>
       </Box>

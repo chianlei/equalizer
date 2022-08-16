@@ -11,15 +11,25 @@ const Footer = () => {
       pb="30px"
       pl={['35px', '50px', '60px', '80px']}
     >
-      <Box w="100px" h="40px">
-        <Image src={logoImg} w="146px"></Image>
+      <Box w="100px" mr="110px">
+        <Image
+          src={logoImg}
+          w="146px"
+          mb={['10px', '20px', '30px', '50px']}
+        ></Image>
       </Box>
-      <Text fontSize="16px">
-        All rights reserved © Equalizer 2021 Have any problems? Contact us via
-        social media or email us at
-        <Text fontWeight="bold">equalizer@example.com</Text>
-      </Text>
-
+      <Box
+        maxW="600px"
+        mr="200px"
+        mb={['15px', '20px', '20px', '20px', '20px']}
+        h="auto"
+      >
+        <Text fontSize="16px">
+          All rights reserved © Equalizer 2021 Have any problems? Contact us via
+          social media or email us at
+          <Text fontWeight="bold">equalizer@example.com</Text>
+        </Text>
+      </Box>
       <Icons />
     </Flex>
   );
