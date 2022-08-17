@@ -20,9 +20,9 @@ const Footer = () => {
       </Box>
       <Box
         maxW="600px"
-        mr="200px"
-        mb={['15px', '20px', '20px', '20px', '20px']}
-        h="auto"
+        mr="150px"
+        mb={['15px', '15px', '15px', '20px', '20px']}
+        h={['120px', '120px', '150px', '70px', '70px']}
       >
         <Text fontSize="16px">
           All rights reserved © Equalizer 2021 Have any problems? Contact us via

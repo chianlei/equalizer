@@ -88,7 +88,7 @@ const Download = () => {
                   </Text>
                 </Button>
               </Box>
-              <Box pb={3} px={3}>
+              <Box pb={10} px={3}>
                 <Button
                   bg="white"
                   w="333px"
